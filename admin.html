@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="brand">
+            📚 SmartAttend
+        </div>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <h1>
+            Admin Dashboard 👨‍💼
+        </h1>
+
+        <p>
+            Manage your college attendance system.
+        </p>
+
+
+        <div class="admin-grid">
+
+
+            <div class="admin-card">
+
+                <div class="admin-icon">
+                    👨‍🎓
+                </div>
+
+                <h2>
+                    120
+                </h2>
+
+                <p>
+                    Total Students
+                </p>
+
+            </div>
+
+
+            <div class="admin-card">
+
+                <div class="admin-icon">
+                    👨‍🏫
+                </div>
+
+                <h2>
+                    15
+                </h2>
+
+                <p>
+                    Total Teachers
+                </p>
+
+            </div>
+
+
+            <div class="admin-card">
+
+                <div class="admin-icon">
+                    📚
+                </div>
+
+                <h2>
+                    8
+                </h2>
+
+                <p>
+                    Total Subjects
+                </p>
+
+            </div>
+
+
+            <div class="admin-card">
+
+                <div class="admin-icon">
+                    📊
+                </div>
+
+                <h2>
+                    84%
+                </h2>
+
+                <p>
+                    Average Attendance
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <h2 class="section-title">
+            Quick Actions
+        </h2>
+
+
+        <div class="quick-actions">
+
+            <button onclick="addStudent()">
+                ➕ Add Student
+            </button>
+
+            <button onclick="addTeacher()">
+                ➕ Add Teacher
+            </button>
+
+            <button onclick="viewReport()">
+                📊 View Reports
+            </button>
+
+        </div>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

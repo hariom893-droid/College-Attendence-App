@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="brand">
+            📚 SmartAttend
+        </div>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <div class="welcome">
+
+            <h1>
+                Welcome, Student 👋
+            </h1>
+
+            <p>
+                Here's your attendance overview.
+            </p>
+
+        </div>
+
+
+        <!-- Attendance Card -->
+
+        <div class="overall-card">
+
+            <div>
+
+                <h2>
+                    Overall Attendance
+                </h2>
+
+                <p>
+                    Your current attendance
+                </p>
+
+            </div>
+
+            <div class="percentage">
+                82%
+            </div>
+
+        </div>
+
+
+        <!-- Subjects -->
+
+        <h2 class="section-title">
+            Subject Attendance
+        </h2>
+
+
+        <div class="subject-grid">
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    18 / 20 Classes
+                </p>
+
+                <div class="progress">
+
+                    <div
+                        class="progress-bar"
+                        style="width:90%"
+                    >
+                    </div>
+
+                </div>
+
+                <strong>
+                    90%
+                </strong>
+
+            </div>
+
+
+            <div class="subject-card">
+
+                <h3>
+                    C Programming
+                </h3>
+
+                <p>
+                    16 / 20 Classes
+                </p>
+
+                <div class="progress">
+
+                    <div
+                        class="progress-bar"
+                        style="width:80%"
+                    >
+                    </div>
+
+                </div>
+
+                <strong>
+                    80%
+                </strong>
+
+            </div>
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    15 / 20 Classes
+                </p>
+
+                <div class="progress">
+
+                    <div
+                        class="progress-bar"
+                        style="width:75%"
+                    >
+                    </div>
+
+                </div>
+
+                <strong>
+                    75%
+                </strong>
+
+            </div>
+
+
+            <div class="subject-card">
+
+                <h3>
+                    DBMS
+                </h3>
+
+                <p>
+                    17 / 20 Classes
+                </p>
+
+                <div class="progress">
+
+                    <div
+                        class="progress-bar"
+                        style="width:85%"
+                    >
+                    </div>
+
+                </div>
+
+                <strong>
+                    85%
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- Alert -->
+
+        <div class="attendance-alert">
+
+            ⚠️
+
+            <div>
+
+                <h3>
+                    Attendance Reminder
+                </h3>
+
+                <p>
+                    Keep your attendance above 75%
+                    to avoid shortage.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
